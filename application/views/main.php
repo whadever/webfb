@@ -104,7 +104,7 @@
   <body>
     <header>
         <img src="<?php echo base_url() ?>assets/FajarBaru.png" width="180" id="logo" height="180" class="img img-responsive" style="margin:auto" alt="Logo Fajar Baru">
-        <nav class="navbar navbar-default" id="navbar">
+        <nav class="navbar navbar-default" id="navbar" style="padding-bottom: 0px !important;">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -117,7 +117,7 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
+                  <ul class="nav navbar-nav" style="padding-bottom: 0px !important;">
                     <li><a href="#">Home</a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Collection <span class="caret"></span></a>
@@ -152,6 +152,7 @@
         </nav>
     </header>
     <div id="waypoint2" style="visibility: hidden;"></div>
+<div class="container-fluid">
 <div class="row">
     <!--SLIDER START-->
     <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
@@ -184,9 +185,21 @@
     <!-- #endregion Jssor Slider End -->
 </div>
 <div class="row">
+    <div class="col-md-5">
+        <div class="row">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url() ?>assets/log5.jpg" data-min-height="600px"></div>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div class="row">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
+        </div>
+    </div>
+</div>
+<div class="row">
     <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
 </div>
-    
+</div>    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <script type="text/javascript" src="<?php echo base_url() ?>js/main.js"></script>
