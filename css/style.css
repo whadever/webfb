@@ -2,6 +2,7 @@ body,html{
 	margin:0;
 	padding: 0;
 	height: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -28,6 +29,8 @@ header{
 }
 .navbar-default .navbar-nav>li>a{
 	color: black;
+	font-variant: small-caps !important;
+	font-size: 14px;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
 	background-color: transparent;
