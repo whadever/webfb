@@ -45,6 +45,17 @@
             margin-right: 50px;
             margin-left: 50px;
         }
+        #imgbutton1{
+            background: url(<?php echo base_url() ?>assets/log5.jpg);
+            background-size: cover;
+        }
+        #imgbutton2{
+            background: url(<?php echo base_url() ?>assets/ring.jpg);
+            background-size: cover;
+        }
+        .hoverimg{
+            min-height: 400px;
+        }
         /* jssor slider bullet navigator skin 05 css */
         /*
         .jssorb05 div           (normal)
@@ -184,18 +195,20 @@
     </div>
     <!-- #endregion Jssor Slider End -->
 </div>
-<div class="row">
+
+<div class="row" style="padding: 20px;">
     <div class="col-md-5">
-        <div class="row">
-            <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url() ?>assets/log5.jpg" data-min-height="600px"></div>
+        <div class="row" style="padding-right: 10px;">
+            <div id="imgbutton1" class="hoverimg"></div>
         </div>
     </div>
-    <div class="col-md-7">
-        <div class="row">
-            <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
+    <div class="col-md-7" >
+        <div class="row" style="padding-left: 10px;">
+            <div id="imgbutton2" class="hoverimg"></div>
         </div>
     </div>
 </div>
+
 <div class="row">
     <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
 </div>
