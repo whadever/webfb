@@ -1,0 +1,12 @@
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.navbar{
+    margin-bottom: 0;
+    border:none;
+}
+.navbar-nav>li{
+    margin-right: 50px;
+    margin-left: 50px;
+}

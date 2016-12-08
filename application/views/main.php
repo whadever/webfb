@@ -21,14 +21,12 @@
 
     <!-- Bootstrap -->
     <link href="<?php echo base_url() ?>css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo base_url() ?>css/jquery.bxslider.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     
     <script src="<?php echo base_url() ?>js/jquery-1.12.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo base_url() ?>js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url() ?>js/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>js/parallax.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>js/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>js/jssor.slider-22.0.3.mini.js"></script>
@@ -199,7 +197,12 @@
 <div class="row" style="padding: 20px;">
     <div class="col-md-5">
         <div class="row" style="padding-right: 10px;">
-            <div id="imgbutton1" class="hoverimg"></div>
+            <div id="imgbutton1" class="hoverimg" style="position: relative;">
+                <div style="position: absolute; color: white; font-size: 20px; top: 150px; left: 50px;text-align: center;">
+                    <h2>Fajar Baru</h2>
+                    <p>Dummy Text.</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="col-md-7" >

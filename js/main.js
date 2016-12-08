@@ -1,11 +1,5 @@
 $(document).ready(function(){
-  $('.bxslider').bxSlider({
-        adaptiveHeight : true,
-        auto : true,
-        pause : 1000,
-        autoHover : true,
-
-  });
+  
 });
 
 $('.dropdown').on('show.bs.dropdown', function(e){
