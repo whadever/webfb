@@ -43,16 +43,34 @@
             margin-right: 50px;
             margin-left: 50px;
         }
-        #imgbutton1{
-            background: url(<?php echo base_url() ?>assets/log5.jpg);
+        #imgbutton2{
+            background: url(<?php echo base_url() ?>assets/log4.jpg);
             background-size: cover;
         }
-        #imgbutton2{
-            background: url(<?php echo base_url() ?>assets/ring.jpg);
-            background-size: cover;
+        #imgbutton3{
+            background: url(<?php echo base_url() ?>assets/jewel1.jpg);
+            background-size: cover;   
+        }
+        #imgbutton4{
+            background: url(<?php echo base_url() ?>assets/log5.jpeg);
+            background-size: cover;   
+        }
+        #imgbutton5{
+            background: url(<?php echo base_url() ?>assets/log6.jpg);
+            background-size: cover;   
+        }
+        #imgbutton6{
+            background: url(<?php echo base_url() ?>assets/log4.jpg);
+            background-size: cover;   
         }
         .hoverimg{
-            min-height: 400px;
+            min-height: 380px;
+        }
+        .hoverimg2{
+            min-height: 520px;
+        }
+        .hoverimg3{
+            min-height: 255px;
         }
         /* jssor slider bullet navigator skin 05 css */
         /*
@@ -175,7 +193,7 @@
                 <img data-u="image" src="<?php echo base_url() ?>assets/log4.jpg" />
             </div>
             <div data-p="225.00" style="display: none;">
-                <img data-u="image" src="<?php echo base_url() ?>assets/log5.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assets/log5.jpeg" />
             </div>
             <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
             <div data-p="225.00" data-po="80% 55%" style="display: none;">
@@ -193,29 +211,53 @@
     </div>
     <!-- #endregion Jssor Slider End -->
 </div>
-
-<div class="row" style="padding: 20px;">
-    <div class="col-md-5">
-        <div class="row" style="padding-right: 10px;">
-            <div id="imgbutton1" class="hoverimg" style="position: relative;">
-                <div style="position: absolute; color: white; font-size: 20px; top: 150px; left: 50px;text-align: center;">
-                    <h2>Fajar Baru</h2>
-                    <p>Dummy Text.</p>
+</div>
+<div class="container">
+    <div class="row" style="padding-top: 20px;padding-bottom: 20px;">
+        <div class="col-md-5">
+            <div class="row" style="padding-right: 10px;">
+                <div id="imgbutton1" class="hoverimg" style="position: relative;">
+                    <div style="position: absolute; color: #000; font-size: 20px; top: 120px; right:10px;text-align: right;">
+                        <h1>Fajar Baru</h1>
+                        <h3>Jewellery Collection</h3>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="col-md-7" >
+            <div class="row" style="padding-left: 10px;">
+                <div id="imgbutton2" class="hoverimg"></div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-7" >
-        <div class="row" style="padding-left: 10px;">
-            <div id="imgbutton2" class="hoverimg"></div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="row" style="padding-right: 5px;">
+                <div id="imgbutton3" class="hoverimg2"></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row" style="padding:5px;padding-top: 0px;">
+                <div id="imgbutton4" class="hoverimg3"></div>
+            </div>
+            <div class="row" style="padding:5px;padding-bottom: 0px;">
+                <div id="imgbutton5" class="hoverimg3"></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row" style="padding-left: 5px;">
+                <div id="imgbutton6" class="hoverimg2"></div>
+            </div>
         </div>
     </div>
 </div>
-
-<div class="row">
-    <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
+<div class="container-fluid">
+    <!-- <div class="row">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="<?php #echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
+    </div> -->
+    <footer style="height: 50px;"></footer>
 </div>
-</div>    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <script type="text/javascript" src="<?php echo base_url() ?>js/main.js"></script>
