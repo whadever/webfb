@@ -29,6 +29,7 @@
     <script src="<?php echo base_url() ?>js/bootstrap.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>js/parallax.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>js/jquery.waypoints.min.js"></script>
+    <script src="<?php echo base_url() ?>js/particles.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>js/jssor.slider-22.0.3.mini.js"></script>
     <style>
         .parallax-window {
@@ -129,8 +130,10 @@
     </style>
   </head>
   <body>
-    <header>
-        <img src="<?php echo base_url() ?>assets/FajarBaru.png" width="180" id="logo" height="180" class="img img-responsive" style="margin:auto" alt="Logo Fajar Baru">
+    <header id="particles-js" style="position: relative;">
+
+        <img src="<?php echo base_url() ?>assets/FajarBaru.png" width="180" id="logo" height="180" class="img img-responsive" style="margin:auto;position: absolute;left: 45%" alt="Logo Fajar Baru">
+    </header>
         <nav class="navbar navbar-default" id="navbar" style="padding-bottom: 0px !important;">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -177,9 +180,8 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-    </header>
-    <div id="waypoint2" style="visibility: hidden;"></div>
-<div class="container-fluid">
+    
+<div class="container-fluid" id="sliderfluid">
 <div class="row">
     <!--SLIDER START-->
     <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
@@ -212,42 +214,46 @@
     <!-- #endregion Jssor Slider End -->
 </div>
 </div>
-<div class="container">
+<div class="container-fluid">
     <div class="row" style="padding-top: 20px;padding-bottom: 20px;">
-        <div class="col-md-5">
-            <div class="row" style="padding-right: 10px;">
+        <div class="col-xs-5">
                 <div id="imgbutton1" class="hoverimg" style="position: relative;">
                     <div style="position: absolute; color: #000; font-size: 20px; top: 120px; right:10px;text-align: right;">
                         <h1>Fajar Baru</h1>
                         <h3>Jewellery Collection</h3>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="col-md-7" >
-            <div class="row" style="padding-left: 10px;">
-                <div id="imgbutton2" class="hoverimg"></div>
-            </div>
+        <div class="col-xs-7" >
+            <div id="imgbutton2" class="hoverimg"></div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <div class="row" style="padding-right: 5px;">
-                <div id="imgbutton3" class="hoverimg2"></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="imgbutton3" class="hoverimg2"></div>    
+                </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="row" style="padding:5px;padding-top: 0px;">
-                <div id="imgbutton4" class="hoverimg3"></div>
+            <div class="row"  style="margin-bottom: 20px;">
+                <div class="col-xs-12">
+                    <div id="imgbutton4" class="hoverimg3"></div>    
+                </div>
             </div>
-            <div class="row" style="padding:5px;padding-bottom: 0px;">
-                <div id="imgbutton5" class="hoverimg3"></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="imgbutton5" class="hoverimg3"></div>    
+                </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="row" style="padding-left: 5px;">
-                <div id="imgbutton6" class="hoverimg2"></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="imgbutton6" class="hoverimg2"></div>    
+                </div>
             </div>
         </div>
     </div>
@@ -261,6 +267,16 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
     <script type="text/javascript" src="<?php echo base_url() ?>js/main.js"></script>
-
+    <script src="<?php echo base_url() ?>js/app.js"></script>
+    <script src="<?php echo base_url() ?>js/stats.js"></script>
+    <script>
+      
+      
+      update = function() {
+       
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script>
   </body>
 </html>

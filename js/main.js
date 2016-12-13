@@ -12,14 +12,14 @@ $('.dropdown').on('hide.bs.dropdown', function(e){
 });
 
 var waypoint = new Waypoint({
-  element: document.getElementById('navbar'),
+  element: document.getElementById('sliderfluid'),
   handler: function(direction) {
     $('#navbar').addClass('navbar-fixed-top');
   }
 });
 
 var waypoint2 = new Waypoint({
-    element: document.getElementById('waypoint2'),
+    element: document.getElementById('sliderfluid'),
     handler:function(direction) {
         $('#navbar').removeClass('navbar-fixed-top');
     },
