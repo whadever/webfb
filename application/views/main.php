@@ -22,6 +22,7 @@
     <!-- Bootstrap -->
     <link href="<?php echo base_url() ?>css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url() ?>css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     
     <script src="<?php echo base_url() ?>js/jquery-1.12.4.min.js"></script>
@@ -127,12 +128,25 @@
         .jssora22r.jssora22rdn { background-position: -310px -31px; }
         .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
         .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+
+        .logoFajar {
+            -webkit-transform: rotateX(150deg); /* Safari */
+            transform: rotateX(150deg);
+            margin:auto;
+            position: absolute;
+            left: 45%;
+        }
+
     </style>
   </head>
   <body>
     <header id="particles-js" style="position: relative;">
 
-        <img src="<?php echo base_url() ?>assets/FajarBaru.png" width="180" id="logo" height="180" class="img img-responsive" style="margin:auto;position: absolute;left: 45%" alt="Logo Fajar Baru">
+        <div class="animated flipInY logoFajar">
+            <img src="<?php echo base_url() ?>assets/FajarBaru.png" width="180" id="logo" height="180" class="img img-responsive"  alt="Logo Fajar Baru">    
+        </div>
+        
+
     </header>
         <nav class="navbar navbar-default" id="navbar" style="padding-bottom: 0px !important;">
             <div class="container-fluid">
