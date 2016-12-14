@@ -273,6 +273,7 @@
     </div>
 </div>
 <div class="container-fluid">
+    <div id="logopaint" style="width: 702px;height: 530px;"></div>
     <!-- <div class="row">
         <div class="parallax-window" data-parallax="scroll" data-image-src="<?php #echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
     </div> -->
@@ -283,6 +284,8 @@
     <script type="text/javascript" src="<?php echo base_url() ?>js/main.js"></script>
     <script src="<?php echo base_url() ?>js/app.js"></script>
     <script src="<?php echo base_url() ?>js/stats.js"></script>
+    <script src="<?php echo base_url() ?>js/jquery.lazylinepainter-1.7.0.js"></script>
+    <script src="<?php echo base_url() ?>js/logopainter.js"></script>
     <script>
       
       
@@ -291,6 +294,20 @@
         requestAnimationFrame(update);
       };
       requestAnimationFrame(update);
+      
+     $(document).ready(function(){ 
+        var $logopaint = $('#logopaint');
+        function init(){
+            $logopaint.lazylinepainter( 
+            {
+                "svgData": pathObj,
+                "strokeWidth": 2,
+                "strokeColor": "#e09b99"
+            });
+            $logopaint.lazylinepainter('paint'); 
+        };
+     });
+
     </script>
   </body>
 </html>
