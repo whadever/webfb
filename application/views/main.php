@@ -132,16 +132,36 @@
         .logoFajar {
             -webkit-transform: rotateX(150deg); /* Safari */
             transform: rotateX(150deg);
-            margin:auto;
             position: absolute;
+            margin:auto;
             left: 45%;
+        }
+        #infinitespin{
+            position: absolute;
+            left: 48.8%;
+            top:5%;
+            height: 80px;
+            width: 80px;
+            background: url('<?php echo base_url() ?>assets/spinner.png') center center no-repeat;
+            background-size: cover;
+        }
+        @-webkit-keyframes rotating {
+            from{
+                -webkit-transform: rotate(0deg);
+            }
+            to{
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        .rotating {
+            -webkit-animation: rotating 12s linear infinite;
         }
 
     </style>
   </head>
   <body>
     <header id="particles-js" style="position: relative;">
-
+        <div id="infinitespin" class="rotating"></div>
         <div class="animated flipInY logoFajar">
             <img src="<?php echo base_url() ?>assets/FajarBaru.png" width="180" id="logo" height="180" class="img img-responsive"  alt="Logo Fajar Baru">    
         </div>
@@ -273,7 +293,7 @@
     </div>
 </div>
 <div class="container-fluid">
-    <div id="logopaint" style="width: 702px;height: 530px;"></div>
+
     <!-- <div class="row">
         <div class="parallax-window" data-parallax="scroll" data-image-src="<?php #echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
     </div> -->
