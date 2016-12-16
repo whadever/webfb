@@ -5,9 +5,12 @@ body,html{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 .texthead{
- font-family: 'Crimson Text', serif;
+ font-family: 'Crimson Text', serif !important;
+ font-weight: bold;
 }
-
+.iconfoot{
+    width: 20px;
+}
 header{
 	height: 186px;
 	
