@@ -32,7 +32,6 @@
     <script type="text/javascript" src="<?php echo base_url() ?>js/parallax.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url() ?>js/jquery.waypoints.min.js"></script>
     <script src="<?php echo base_url() ?>js/particles.js"></script>
-    <script type="text/javascript" src="<?php echo base_url() ?>js/jssor.slider-22.0.3.mini.js"></script>
     <style>
         .logoFajar {
             -webkit-transform: rotateX(150deg); /* Safari */
@@ -215,7 +214,7 @@
             </div>
             <div class="col-md-4" style="padding-top: 0px !important;">
                 <p><div class="texthead foot-head">Contact Us</div></p>
-                <p><a href="tel:021 – 877 133 09"><i class="fa fa-phone iconfoot" aria-hidden="true"></i>+021 – 877 133 09</p></a>
+                <p><a href="tel:+622187713309"><i class="fa fa-phone iconfoot" aria-hidden="true"></i>+6221 – 8771 3309</p></a>
                 <p><a href="mailto:fbcibubur@gmail.com"><i class="fa fa-envelope iconfoot" aria-hidden="true"></i>fbcibubur@gmail.com</p></a>
             </div>
             <div class="col-md-4">

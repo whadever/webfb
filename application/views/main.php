@@ -51,7 +51,7 @@
                 <div id="imgbutton1" class="hoverimg" style="position: relative;">
                     <div style="position: absolute; color: #000; font-size: 20px; top: 120px; left:10px;text-align: left;">
                         <h1 class="texthead">Fajar Baru</h1>
-                        <h3>Jewellery Collection</h3>
+                        <h3>Definition of new perfection</h3>
                     </div>
                 </div>
         </div>
