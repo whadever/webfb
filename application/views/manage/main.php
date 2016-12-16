@@ -7,7 +7,7 @@
   <div class="row">
     <div class="col-xs-12">
       <h4>Sliding Banner Content</h4>
-      <a class="btn btn-primary" style="margin-bottom: 10px;">Add New</a>
+      <a class="btn btn-primary" style="margin-bottom: 10px;" href="<?php echo base_url('manage/new_banner')?>">Add New</a>
       <p>Ukuran yang disarankan 1836x702 atau gambar dengan ratio yang sama</p>
       <table class="table table-bordered">
         <thead><tr>

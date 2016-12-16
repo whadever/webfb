@@ -41,6 +41,10 @@ class Manage extends CI_Controller {
 		}
 		
 	}
+	public function new_banner(){
+		$data['title'] = 'Fajar Baru Jewellery - Admin';
+		$this->template->load('default_admin','manage/new_banner',$data);
+	}
 
 
 

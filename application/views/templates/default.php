@@ -153,7 +153,11 @@
             <!-- <div id="infinitespin" class="rotating"></div> -->
             <div class="animated flipInY logoFajar">
                 <img src="<?php echo base_url() ?>assets/FajarBaru.png" width="180" id="logo" height="180" class="img img-responsive"  alt="Logo Fajar baru">    
-            </div>    
+            </div>
+            <div id="social-media">
+                <a href="" class="sosmed"><img src="<?php echo base_url() ?>assets/iconig.png" height="25px" width="25px" class="img img-responsive"></a>
+                <a href="" class="sosmed"><img src="<?php echo base_url() ?>assets/iconfb.png" height="25px" width="25px" class="img img-responsive"></a>
+            </div> 
     </header>
         <nav class="navbar navbar-default" id="navbar" style="padding-bottom: 0px !important;">
             <div class="container-fluid">
@@ -173,25 +177,18 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Collection <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li><a href="#">Diamond</a></li>
+                        <li><a href="#">Gold</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gifts <span class="caret"></span></a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Catalog <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li><a href="#">Necklace</a></li>
+                        <li><a href="#">Ring</a></li>
+                        <li><a href="#">Bracelet</a></li>
+                        <li><a href="#">Earring</a></li>
+                        <li><a href="#">Pendant</a></li>
                       </ul>
                     </li>
                     <li><a href="#">About Us </a></li>
