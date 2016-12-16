@@ -17,9 +17,21 @@
           <th>Action</th>
         </tr></thead>
         <tbody>
-          
+          <?php if ($banners!=NULL):?>
+          <?php foreach ($banners as $banner):?>
+            <tr>
+              <td><?php echo $banner->picture?></td>
+              <td><?php echo $banner->caption?></td>
+              <td><?php echo $banner->link?></td>
+              <td>Edit | Delete</td>
+            </tr>
+          <?php endforeach?>
+        <?php endif?>
         </tbody>
       </table>
     </div>
   </div>
 </div>
+
+
+
