@@ -87,13 +87,6 @@
            background-image:none !important;
            filter:none !important;
         }
-        .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-            display: block;
-            height: auto;
-            max-width: 100%;
-            line-height: 1;
-            width: 100%; // Add this
-        }
         /*Social Media button on head*/
         #social-media{
             position: absolute;
@@ -182,20 +175,6 @@
                         <li><a href="#">One more separated link</a></li>
                       </ul>
                     </li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gifts <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">About Us </a></li>
-                    <li><a href="#">Contact Us </a></li>
                   </ul>
                   
                 </div><!-- /.navbar-collapse -->
@@ -207,49 +186,11 @@
 <hr>
 <!--Footer container-->
 <div class="container">
-    <!-- <div class="row">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="<?php #echo base_url() ?>assets/ring.jpg" data-min-height="600px"></div>
-    </div> -->
     <footer style="height: 50px;">
-        <div class="row" style="padding-top: 0px!important;">
-            <div class="col-md-4">
-                <p><div class="texthead foot-head">Find Us</div></p>
-                <div id="social-media-footer" class="hidden-xs">
-                    <a href="" class="sosmed"><img src="<?php echo base_url() ?>assets/iconig.png" height="35px" width="35px" class="img img-responsive"></a>
-                    <a href="" class="sosmed"><img src="<?php echo base_url() ?>assets/iconfb.png" height="35px" width="35px" class="img img-responsive"></a>
-                </div>
-            </div>
-            <div class="col-md-4" style="padding-top: 0px !important;">
-                <p><div class="texthead foot-head">Contact Us</div></p>
-                <p><a href="tel:+622187713309"><i class="fa fa-phone iconfoot" aria-hidden="true"></i>+6221 – 8771 3309</p></a>
-                <p><a href="mailto:fbcibubur@gmail.com"><i class="fa fa-envelope iconfoot" aria-hidden="true"></i>fbcibubur@gmail.com</p></a>
-            </div>
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p><div class="texthead foot-head">Store Location</div></p>    
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <a href="http://maps.google.com/maps?daddr=-6.351656996788107,106.88085452785504&amp;ll=">
-                            <div class="iconfoot" style="display: inline-block;float: left;">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>     
-                            </div>
-                            <div style="display: inline-block;">
-                                Pasar Jaya Cibubur A L01 AKS 053-055<br> 
-                                JL. Raya Lap. Tembak – Kota Jakarta Timur<br> 
-                                DKI Jakarta 13720 INDONESIA
-                            </div>
-                        </a>    
-                    </div>
-                    
-                </div>
-            </div>            
-        </div>
+        
         <div class="row"  style="padding-top: 20px;">
             <div class="col-xs-12 text-center">
-                <p style="font-variant: small-caps;">Copyright &copy; Fajar Baru Gold & Jewellery</p>
+                <p style="font-variant: small-caps;">Copyright &copy; Hassee 2016</p>
             </div>
         </div>
     </footer>

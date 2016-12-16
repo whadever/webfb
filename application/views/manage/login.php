@@ -38,7 +38,7 @@
             padding-right: 70px;
         }
         .form-control{
-            background-color: rgba(236, 240, 241,0.6) !important;
+            background-color: rgba(52, 73, 94,0.5) !important;
             color: #fff;
             border: none;
             border-bottom: #fff solid 1px;
@@ -90,6 +90,7 @@
                   </div>
                   <div class="row">
                     <div class="loginbox">
+                        <?php echo form_open('manage/login')?>
                           <div class="form-group" style="background-color: #263b85 !important;padding-top: 4px;padding-bottom: 4px;">
                             <h4 style="color: #fff">Login</h4>
                           </div>
@@ -100,7 +101,7 @@
                             <input type="password" name="password" class="form-control" placeholder="Password">
                           </div>
                           <input type="submit" value="Login" name="login" class="btn btn-primary">                     
-
+                          <?php echo form_close()?>
                       </div>
                   </div>
                 </div>

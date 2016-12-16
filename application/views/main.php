@@ -13,9 +13,9 @@
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <img src="<?php echo base_url() ?>assets/Website5.jpg" alt="...">
-              <!-- <div class="carousel-caption">
-                ...
-              </div> -->
+              <div class="carousel-caption">
+                <h1>Your One Stop Jewellery Shop</h1>
+              </div>
             </div>
             <div class="item">
               <img src="<?php echo base_url() ?>assets/Website2.jpg" alt="...">
