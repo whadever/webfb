@@ -209,38 +209,45 @@
     </div> -->
     <footer style="height: 50px;">
         <div class="row" style="padding-top: 0px!important;">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <p><div class="texthead foot-head">Find Us</div></p>
                 <div id="social-media-footer" class="hidden-xs">
                     <a href="" class="sosmed"><img src="<?php echo base_url() ?>assets/iconig.png" height="35px" width="35px" class="img img-responsive"></a>
                     <a href="" class="sosmed"><img src="<?php echo base_url() ?>assets/iconfb.png" height="35px" width="35px" class="img img-responsive"></a>
                 </div>
             </div>
-            <div class="col-md-4" style="padding-top: 0px !important;">
+            <div class="col-md-3" style="padding-top: 0px !important;">
                 <p><div class="texthead foot-head">Contact Us</div></p>
-                <p><a href="tel:+622187713309"><i class="fa fa-phone iconfoot" aria-hidden="true"></i>+6221 – 8771 3309</p></a>
+                <p><a href="tel:+622187713309"><i class="fa fa-phone iconfoot" aria-hidden="true"></i>+6221 – 877 133 09</p></a>
+                <p><a href="tel:+6285881694188"><i class="fa fa-whatsapp iconfoot" aria-hidden="true"></i>+62858 – 8169 4188</p></a>
                 <p><a href="mailto:fbcibubur@gmail.com"><i class="fa fa-envelope iconfoot" aria-hidden="true"></i>fbcibubur@gmail.com</p></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="row">
                     <div class="col-xs-12">
                         <p><div class="texthead foot-head">Store Location</div></p>    
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-md-7" style="padding-right: 0px;">
                         <a href="http://maps.google.com/maps?daddr=-6.351656996788107,106.88085452785504&amp;ll=">
-                            <div class="iconfoot" style="display: inline-block;float: left;">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>     
-                            </div>
-                            <div style="display: inline-block;">
-                                Pasar Jaya Cibubur A L01 AKS 053-055<br> 
-                                JL. Raya Lap. Tembak – Kota Jakarta Timur<br> 
-                                DKI Jakarta 13720 INDONESIA
-                            </div>
+                            <iframe
+                              width="100%"
+                              height="120"
+                              frameborder="0" style="border:0"
+                              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmspcQ1OKmdHpxFxcpUYQtLsdkMaqdQNI
+                                &q=pasar%20jaya%20cibubur" allowfullscreen>
+                            </iframe>
+                            <!--AIzaSyCmspcQ1OKmdHpxFxcpUYQtLsdkMaqdQNI-->
+                                
+                        
                         </a>    
                     </div>
-                    
+                    <div class="col-md-5">
+                        Pasar Jaya Cibubur<br>AL01 AKS No. 52-55, AKS No. 7-10<br> 
+                        JL. Raya Lap. Tembak – Jakarta Timur<br> 
+                        DKI Jakarta 13720 INDONESIA
+                    </div>
                 </div>
             </div>            
         </div>

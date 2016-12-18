@@ -25,11 +25,7 @@
             </div>
             <div class="item">
               <img src="<?php echo base_url() ?>assets/Website1.jpg" alt="...">
-              <!-- <div class="carousel-caption">
-                ...
-              </div> -->
             </div>
-            <!-- ... -->
           </div>
 
           <!-- Controls -->
